@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 80vh;
+    }
+
+#calculadora {
+    background-color: #8d6e63;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #display {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+      padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: right;
+    width: 90%;
+  }
+  
+  .numero{
+    background-color: #8d6e63;
+}
+
+  #retr {
+    grid-column: span 2;}
+  
+  .bluey, .operador{
+    background-color: aquamarine;
+  }
+
+
+   .numero {
+    color: #fff;
+  }
+  
+  button {
+    border-radius: 12px;
+    border: 1px solid grey;
+  }
+  
+  #fila1,
+  #fila2,
+  #fila3,
+  #fila4 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
